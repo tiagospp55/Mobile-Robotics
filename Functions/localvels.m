@@ -28,9 +28,10 @@ switch t
         Vy = 0;
         w = (Vs * sin(aw2))/L;
     case 3
-        M = [0 r/sqrt(3) -r/sqrt(2)
-             -2*r/3 r/3 r/3
-             r/3/L r/3/L r/3/L];
+        M = [0 r/sqrt(3) -r/sqrt(2);
+             -2*r/3 r/3 r/3;
+             r/(3*L) r/(3*L) r/(3*L)];
+
         V = M*[w1; aw2; w3];
         Vx = V(1);
         Vy = V(2);

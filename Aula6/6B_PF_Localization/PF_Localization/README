@@ -1,0 +1,23 @@
+Generate_data_PF_localization_v3.m
+  Generates data for Particle Filter localization (Lidar, etc.)
+  Needs to be run only to generate the data
+
+Robot_Localization_PF_Scan_v3.m
+  Performs the robot localization using PF in a sequence of steps
+
+Some auxiliary functions called by the script (and in the order ofr call)
+  initialise_PF.m
+  draw_map.m
+  find_distance.m
+  update_particles.m
+  PF_estimate_robot_position.m
+  resample_particles.m
+  PF_prediction.m
+
+There are some other subcalled by other functions
+  particle_validation.m
+  wrap.m
+
+
+vsantos, March 2024
+
