@@ -7,7 +7,7 @@ if nargin<6
     Wn=0.1; 
 end
 if nargin<5
-    Vn=0.1; 
+    Vn=5; 
 end
 if nargin<4
     L=1; 
@@ -25,7 +25,7 @@ end
 
 
 x=[0,0,0];
-Vlinear=5;
+Vlinear=10;
 
 
 sig_v     = 0.1;
